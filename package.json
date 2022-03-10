@@ -1,0 +1,19 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "vikas pawar blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikas-pawar-01/my-blog.git"
+  },
+  "author": "Vikas Pawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikas-pawar-01/my-blog/issues"
+  },
+  "homepage": "https://github.com/vikas-pawar-01/my-blog#readme"
+}
