@@ -4,6 +4,8 @@
   "description": "vikas pawar test blog",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/vikas-pawar-01/my-blog/issues"
   },
-  "homepage": "https://github.com/vikas-pawar-01/my-blog#readme"
+  "homepage": "https://github.com/vikas-pawar-01/my-blog#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4"
+  }
 }
