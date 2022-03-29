@@ -5,14 +5,14 @@ const fs = require('fs');
 const app = express();
 const PORT = process.env.PORT || 8000;
 
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'build'), { index: false }));
 
-app.get('/users', (req, res, next) => {
-    const data = fs.readFileSync(path.join(__dirname, 'data.json'), { encoding: 'utf8', flag: 'r' });
-    res.send(data);
-});
+// app.get('/users', (req, res) => {
+//     const data = fs.readFileSync(path.join(__dirname, 'data.json'), { encoding: 'utf8', flag: 'r' });
+//     res.send(data);
+// });
 
-app.get('/*', function (req, res, next) {
+app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'build/index.html'), function (err) {
         if (err) {
             res.status(500).send(err)
