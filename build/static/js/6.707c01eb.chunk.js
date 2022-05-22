@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{145:function(e,n,a){"use strict";a.r(n);var t=a(0),r=a.n(t),l=a(56);n.default=function(){return r.a.createElement(l.a,null,r.a.createElement("h3",null,"Vikas Pawar"),r.a.createElement("p",null,"Software Developer"),r.a.createElement("p",null,"India"))}},56:function(e,n,a){"use strict";var t=a(0),r=a.n(t);n.a=function(e){return r.a.createElement("div",{className:"center"},e.children)}}}]);
+//# sourceMappingURL=6.707c01eb.chunk.js.map
